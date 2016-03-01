@@ -1,0 +1,34 @@
+{
+    "name": "talesoft/tale-controller",
+    "type": "library",
+    "keywords": ["controller", "dispatcher"],
+    "description": "A controller middleware for talesoft/tale-app",
+    "license": "MIT",
+    "homepage": "http://docs.talesoft.io/tale-framework/tale/controller",
+    "authors": [
+        {
+            "name": "Talesoft",
+            "homepage": "http://talesoft.io",
+            "email": "info@talesoft.io"
+        },
+        {
+            "name": "Torben Koehn",
+            "email": "tk@talesoft.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "psr/http-message": "~1.0",
+        "talesoft/tale-config": "~0.2",
+        "talesoft/tale-app": "~0.1",
+        "talesoft/tale-http": "~0.1",
+        "talesoft/tale-http-runtime": "~0.1",
+        "talesoft/tale-jade": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tale\\": ""
+        }
+    }
+}
